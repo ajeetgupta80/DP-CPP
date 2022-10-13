@@ -1,4 +1,18 @@
+/*THIS WE ARE GOING TO STUDY AOBUT TOPICS
+1. OVERLAPPING SUBPROBLEM   -- FIBONACCI KIND OFF
+2. MAXIMIZE/MINIMIZE THE VALUE   --
+3. FINDING NUMBER OF WAYS
+4. COVERING ALL CASES (DP VS GREEDY)
+5. CHECK FOR POSSIBILITY
+*/
+
+
 #include<iostream>
+#include<bits/stdc++.h>
+#define nline endl
+
+
+
 using namespace std;
 void init_code(){
     #ifndef ONLINE_JUDGE
@@ -36,11 +50,17 @@ void solve(int n)
 }
 
 
+
                                                               
 int main()
 {
+	
+
+	
+
 	init_code();
-	int n = 30;
-	solve(n);
+	int k = 30;
+	solve(k);
+	cout<<fibo(k)<<endl;
 
 }
